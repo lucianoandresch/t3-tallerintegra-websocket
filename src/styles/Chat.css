@@ -1,0 +1,89 @@
+.chat-background{
+    background-color: rgb(107, 160, 111);
+}
+.chat{
+    width: 450px;
+    height: 400px;
+    overflow: scroll;
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.background{
+    height: 650px;
+    width: 500px;
+    margin:auto;
+    margin-right: 50px;
+    margin-top: 0px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.titulo{
+    margin: auto;
+    height: 50px;
+    width: 350px;
+    background-color: rgb(198, 172, 223);
+    text-align: center;
+    margin-left: 100px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#text{
+    align-self: center;
+    resize: none;
+    height: 80px;
+    width: 250px;
+}
+#button1{
+    margin-left: 10px;
+    height: 30px;
+    margin-top: 0cm;
+}
+
+.leaflet-container{
+    width: 90%;
+    height: 31vw;
+    margin-left: 50px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+}
+.info-camiones{
+    height: 600px;
+    width: 1750px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left:20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+    margin-bottom: 40px;
+}
+.margin-left{
+    margin-left: 15px;
+}
+
+.ok{
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 10px;
+    width:70%;
+}
+.notok{
+    background-color:red;
+    border: 2px solid black;
+    border-radius: 10px;
+    width:70%;
+}
+.ingresar{
+    margin-top:30px;
+}
+
